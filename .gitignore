@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables (sensitive!)
+.env
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Data - student attempts (personal data)
+islamiyat_prep/data/students/
