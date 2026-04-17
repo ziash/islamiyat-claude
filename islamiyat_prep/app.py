@@ -1446,6 +1446,9 @@ elif st.session_state.page == "memorize_select":
     if select_all_cb != prev_all:
         for g in groups:
             st.session_state[f"mem_grp_{g['group_id']}"] = select_all_cb
+        for cat_key, _ in DISPLAY_CATEGORIES:
+            st.session_state[f"_mem_cat_cb_{cat_key}"] = select_all_cb
+            st.session_state[f"_mem_cat_all_{cat_key}"] = select_all_cb
         st.session_state["_mem_all_state"] = select_all_cb
         st.rerun()
     st.session_state["_mem_all_state"] = select_all_cb
