@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Ikhlas",
+    "surah_number": 112,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah establishes the absolute oneness and uniqueness of Allah?",
+    "options": {
+      "A": "Surah Al-Ikhlas",
+      "B": "Surah Al-Falaq",
+      "C": "Surah Al-Kafirun",
+      "D": "Surah Al-Fatiha"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Ikhlas",
+    "surah_number": 112,
+    "question_angle": "vocabulary",
+    "arabic_text": "ٱللَّهُ ٱلصَّمَدُ",
+    "english_translation": "Allah, the Eternal, the Absolute",
+    "question": "What does the term ٱلصَّمَدُ mean in Surah Al-Ikhlas?",
+    "options": {
+      "A": "The Most Merciful",
+      "B": "The Eternal, the Absolute",
+      "C": "The All-Knowing",
+      "D": "The Creator"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Ikhlas",
+    "surah_number": 112,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Ikhlas is primarily a declaration of:",
+    "options": {
+      "A": "The rewards of Paradise",
+      "B": "The punishment of disbelievers",
+      "C": "The unity and nature of Allah",
+      "D": "The obligation of prayer"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Ikhlas",
+    "surah_number": 112,
+    "question_angle": "ayah_detail",
+    "arabic_text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+    "english_translation": "He does not beget, nor is He begotten",
+    "question": "According to Surah Al-Ikhlas, what is stated about Allah's existence?",
+    "options": {
+      "A": "He is present in all things",
+      "B": "He has angels as His messengers",
+      "C": "He revealed many scriptures",
+      "D": "He does not beget nor is He begotten"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Ikhlas",
+    "surah_number": 112,
+    "question_angle": "concept",
+    "arabic_text": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌ",
+    "english_translation": "And there is none like unto Him",
+    "question": "What fundamental concept of Tawhid does Surah Al-Ikhlas emphasize?",
+    "options": {
+      "A": "Allah's incomparability and uniqueness",
+      "B": "Allah's promise of resurrection",
+      "C": "Allah's mercy to believers",
+      "D": "Allah's control over destiny"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

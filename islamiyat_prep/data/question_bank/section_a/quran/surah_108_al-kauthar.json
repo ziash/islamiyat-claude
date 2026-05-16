@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Kauthar",
+    "surah_number": 108,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah reassures the Prophet (pbuh) that his enemies will be cut off and forgotten?",
+    "options": {
+      "A": "Surah Al-Kauthar",
+      "B": "Surah Al-Nasr",
+      "C": "Surah Al-Kafirun",
+      "D": "Surah Al-Masad"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Kauthar",
+    "surah_number": 108,
+    "question_angle": "vocabulary",
+    "arabic_text": "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+    "english_translation": "Indeed, We have granted you abundance—Al-Kauthar",
+    "question": "What does ٱلْكَوْثَرَ mean in Surah Al-Kauthar?",
+    "options": {
+      "A": "The victory",
+      "B": "The abundance",
+      "C": "The guidance",
+      "D": "The patience"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Kauthar",
+    "surah_number": 108,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Kauthar primarily addresses:",
+    "options": {
+      "A": "The rejection of disbelievers",
+      "B": "The punishment of the People of the Elephant",
+      "C": "The blessings granted to the Prophet (pbuh) and response to his critics",
+      "D": "The importance of charity and prayer"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Kauthar",
+    "surah_number": 108,
+    "question_angle": "ayah_detail",
+    "arabic_text": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+    "english_translation": "So pray to your Lord and sacrifice",
+    "question": "What two actions is the Prophet (pbuh) commanded to perform in Surah Al-Kauthar?",
+    "options": {
+      "A": "Fast and give charity",
+      "B": "Read and teach",
+      "C": "Praise and thank",
+      "D": "Pray and sacrifice"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Kauthar",
+    "surah_number": 108,
+    "question_angle": "concept",
+    "arabic_text": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+    "english_translation": "For he who hates you—he is the one cut off",
+    "question": "What key concept does Surah Al-Kauthar establish about those who opposed the Prophet (pbuh)?",
+    "options": {
+      "A": "They will be given a chance to repent",
+      "B": "They will be the ones cut off without legacy",
+      "C": "They will face punishment in this life only",
+      "D": "They will be forgiven if they seek guidance"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  }
+]

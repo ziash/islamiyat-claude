@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "الْحَيَاءُ لَا يَأْتِي إِلَّا بِخَيْرٍ",
+    "english_translation": "Modesty brings nothing but good.",
+    "question": "What is the correct translation of the Arabic phrase 'الْحَيَاءُ لَا يَأْتِي إِلَّا بِخَيْرٍ'?",
+    "options": {
+      "A": "Modesty brings nothing but good.",
+      "B": "Patience brings nothing but reward.",
+      "C": "Honesty brings nothing but success.",
+      "D": "Charity brings nothing but blessings."
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "الْحَيَاءُ لَا يَأْتِي إِلَّا بِخَيْرٍ",
+    "english_translation": "Modesty brings nothing but good.",
+    "question": "In which authentic collection of Hadith is the narration 'Modesty brings nothing but good' found?",
+    "options": {
+      "A": "Sunan Abu Dawud",
+      "B": "Sahih Bukhari",
+      "C": "Sunan Ibn Majah",
+      "D": "Muwatta Malik"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "الْحَيَاءُ لَا يَأْتِي إِلَّا بِخَيْرٍ",
+    "english_translation": "Modesty brings nothing but good.",
+    "question": "What is the primary Islamic teaching established by the Hadith 'Modesty brings nothing but good'?",
+    "options": {
+      "A": "Modesty is optional in Islamic conduct.",
+      "B": "Modesty is discouraged in business matters.",
+      "C": "Modesty is a virtue that leads only to positive outcomes.",
+      "D": "Modesty should only be practiced in public."
+    },
+    "correct_answer": "C",
+    "marks": 1
+  }
+]

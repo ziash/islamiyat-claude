@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Adiyat",
+    "surah_number": 100,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah warns humanity about their ingratitude to Allah and extreme love of worldly wealth?",
+    "options": {
+      "A": "Al-Adiyat",
+      "B": "Al-Takathur",
+      "C": "Al-Humazah",
+      "D": "Al-Qari'ah"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Adiyat",
+    "surah_number": 100,
+    "question_angle": "vocabulary",
+    "arabic_text": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌ",
+    "english_translation": "Surely humankind is ungrateful to their Lord",
+    "question": "What does the word لَكَنُودٌ mean in Surah Al-Adiyat?",
+    "options": {
+      "A": "Forgetful",
+      "B": "Ungrateful",
+      "C": "Disobedient",
+      "D": "Arrogant"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Adiyat",
+    "surah_number": 100,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Adiyat opens with an oath by which of the following?",
+    "options": {
+      "A": "The sun and the moon",
+      "B": "The mountains and the valleys",
+      "C": "The galloping horses",
+      "D": "The wind and the rain"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Adiyat",
+    "surah_number": 100,
+    "question_angle": "ayah_detail",
+    "arabic_text": "فَٱلْمُورِيَٰتِ قَدْحًا",
+    "english_translation": "striking sparks of fire with their hoofs",
+    "question": "According to Surah Al-Adiyat, what do the horses strike with their hoofs?",
+    "options": {
+      "A": "The ground forcefully",
+      "B": "Sparks of fire",
+      "C": "Clouds of dust",
+      "D": "The enemy shields"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Adiyat",
+    "surah_number": 100,
+    "question_angle": "concept",
+    "arabic_text": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+    "english_translation": "Do they not know that when the contents of the graves will be spilled out, and the secrets of the hearts will be laid bare",
+    "question": "What key concept about the Day of Judgment does Surah Al-Adiyat emphasize?",
+    "options": {
+      "A": "All deeds will be weighed on scales",
+      "B": "The secrets of hearts will be revealed and Allah is All-Aware",
+      "C": "The earth will be flattened completely",
+      "D": "People will be given their records in their hands"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  }
+]

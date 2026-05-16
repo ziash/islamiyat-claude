@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Quraish",
+    "surah_number": 106,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah reminds the Quraysh of Allah's blessings and calls them to worship Him?",
+    "options": {
+      "A": "Al-Quraish",
+      "B": "Al-Fil",
+      "C": "Al-Kafirun",
+      "D": "Al-Lahab"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Quraish",
+    "surah_number": 106,
+    "question_angle": "vocabulary",
+    "arabic_text": "رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+    "english_translation": "the trading caravan to Yemen in the winter and Syria in the summer",
+    "question": "What does the phrase رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ refer to in Surah Al-Quraish?",
+    "options": {
+      "A": "The pilgrimage seasons in Makkah",
+      "B": "The winter and summer trading journeys",
+      "C": "The change of weather conditions",
+      "D": "The agricultural seasons of planting and harvest"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Quraish",
+    "surah_number": 106,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Quraish primarily addresses which tribe and reminds them of their prosperity?",
+    "options": {
+      "A": "The tribe of Banu Hashim",
+      "B": "The tribe of Aws and Khazraj",
+      "C": "The Quraysh tribe of Makkah",
+      "D": "The tribe of Thaqif"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Quraish",
+    "surah_number": 106,
+    "question_angle": "ayah_detail",
+    "arabic_text": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍ",
+    "english_translation": "Who has fed them against hunger and made them secure against fear",
+    "question": "According to Surah Al-Quraish, what two blessings did Allah grant to the Quraysh?",
+    "options": {
+      "A": "Wealth and children",
+      "B": "Knowledge and power",
+      "C": "Rain and crops",
+      "D": "Food from hunger and security from fear"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Quraish",
+    "surah_number": 106,
+    "question_angle": "concept",
+    "arabic_text": "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ",
+    "english_translation": "let them worship the Lord of this Sacred House",
+    "question": "What fundamental concept does Surah Al-Quraish establish about human obligation towards Allah?",
+    "options": {
+      "A": "Gratitude for blessings should lead to worship of the Provider",
+      "B": "Wealth must be distributed among the poor",
+      "C": "Trading is a form of worship in Islam",
+      "D": "Protection of the Kaaba is a collective duty"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

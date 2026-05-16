@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "إِنَّمَا مَثَلُ صَاحِبِ الْقُرْآنِ كَمَثَلِ صَاحِبِ الإِبِلِ الْمُعَقَّلَةِ، إِنْ عَاهَدَ عَلَيْهَا أَمْسَكَهَا، وَإِنْ أَطْلَقَهَا ذَهَبَتْ",
+    "english_translation": "The example of the one who memorises the Quran is like the owner of hobbled camels. If he tends to them, he keeps them; if he lets them go, they wander away.",
+    "question": "What does the Hadith compare the one who memorises the Quran to?",
+    "options": {
+      "A": "The owner of a flock of sheep",
+      "B": "The owner of hobbled camels",
+      "C": "The owner of a garden",
+      "D": "The owner of precious jewels"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "إِنَّمَا مَثَلُ صَاحِبِ الْقُرْآنِ كَمَثَلِ صَاحِبِ الإِبِلِ الْمُعَقَّلَةِ، إِنْ عَاهَدَ عَلَيْهَا أَمْسَكَهَا، وَإِنْ أَطْلَقَهَا ذَهَبَتْ",
+    "english_translation": "The example of the one who memorises the Quran is like the owner of hobbled camels. If he tends to them, he keeps them; if he lets them go, they wander away.",
+    "question": "In which authentic collection of Hadith is this narration found?",
+    "options": {
+      "A": "Sahih Muslim",
+      "B": "Sunan Abu Dawud",
+      "C": "Jami' at-Tirmidhi",
+      "D": "Sahih Bukhari"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "إِنَّمَا مَثَلُ صَاحِبِ الْقُرْآنِ كَمَثَلِ صَاحِبِ الإِبِلِ الْمُعَقَّلَةِ، إِنْ عَاهَدَ عَلَيْهَا أَمْسَكَهَا، وَإِنْ أَطْلَقَهَا ذَهَبَتْ",
+    "english_translation": "The example of the one who memorises the Quran is like the owner of hobbled camels. If he tends to them, he keeps them; if he lets them go, they wander away.",
+    "question": "What is the main lesson taught by this Hadith?",
+    "options": {
+      "A": "The Quran must be regularly revised and practiced to retain its memorisation",
+      "B": "Camels are valuable animals in Islamic culture",
+      "C": "Memorising the Quran is an impossible task",
+      "D": "Only Arabs can properly memorise the Quran"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

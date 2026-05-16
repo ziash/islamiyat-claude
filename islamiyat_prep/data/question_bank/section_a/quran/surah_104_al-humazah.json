@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Humazah",
+    "surah_number": 104,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah warns those who slander others and hoard wealth thinking it will grant them immortality?",
+    "options": {
+      "A": "Al-Humazah",
+      "B": "Al-Masad",
+      "C": "Al-Qari'ah",
+      "D": "Al-Takathur"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Humazah",
+    "surah_number": 104,
+    "question_angle": "vocabulary",
+    "arabic_text": "ٱلْحُطَمَةِ",
+    "english_translation": "the Hutamah—the crushing Fire",
+    "question": "What does the term ٱلْحُطَمَةِ refer to in Surah Al-Humazah?",
+    "options": {
+      "A": "The gathering of wealth",
+      "B": "The crushing Fire",
+      "C": "The Day of Judgement",
+      "D": "The stretching pillars"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Humazah",
+    "surah_number": 104,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Humazah primarily condemns people who engage in:",
+    "options": {
+      "A": "Denying the Day of Judgement",
+      "B": "Rejecting revealed scriptures",
+      "C": "Slandering and hoarding wealth",
+      "D": "Preventing acts of charity"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Humazah",
+    "surah_number": 104,
+    "question_angle": "ayah_detail",
+    "arabic_text": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+    "english_translation": "which leaps up over the hearts",
+    "question": "According to Surah Al-Humazah, what does the Fire of Allah leap up over?",
+    "options": {
+      "A": "The bodies of the disbelievers",
+      "B": "The wealth they accumulated",
+      "C": "The mountains and valleys",
+      "D": "The hearts"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Humazah",
+    "surah_number": 104,
+    "question_angle": "concept",
+    "arabic_text": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+    "english_translation": "He thinks that his wealth will make him last forever",
+    "question": "What false belief does Surah Al-Humazah refute regarding wealth?",
+    "options": {
+      "A": "That wealth can grant immortality",
+      "B": "That wealth should be given in charity",
+      "C": "That wealth comes from Allah alone",
+      "D": "That wealth is forbidden in Islam"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

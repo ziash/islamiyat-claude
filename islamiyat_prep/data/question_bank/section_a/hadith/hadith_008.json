@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "يَرْحَمُ اللَّهُ مَنْ لَا يَرْحَمُ النَّاسَ",
+    "english_translation": "Allah will not be merciful to those who are not merciful to people.",
+    "question": "What is the correct translation of the Hadith: يَرْحَمُ اللَّهُ مَنْ لَا يَرْحَمُ النَّاسَ?",
+    "options": {
+      "A": "Allah will not be merciful to those who are not merciful to people.",
+      "B": "Allah loves those who show mercy to His creation.",
+      "C": "Those who are merciful will be rewarded in Paradise.",
+      "D": "Allah forgives those who forgive others."
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "يَرْحَمُ اللَّهُ مَنْ لَا يَرْحَمُ النَّاسَ",
+    "english_translation": "Allah will not be merciful to those who are not merciful to people.",
+    "question": "In which authentic collection of Hadith is the saying 'Allah will not be merciful to those who are not merciful to people' recorded?",
+    "options": {
+      "A": "Sahih Muslim",
+      "B": "Sahih Bukhari",
+      "C": "Sunan Abu Dawud",
+      "D": "Jami al-Tirmidhi"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "يَرْحَمُ اللَّهُ مَنْ لَا يَرْحَمُ النَّاسَ",
+    "english_translation": "Allah will not be merciful to those who are not merciful to people.",
+    "question": "What is the main Islamic teaching established by this Hadith?",
+    "options": {
+      "A": "Muslims must pray five times daily to receive Allah's mercy.",
+      "B": "Fasting in Ramadan is obligatory for all believers.",
+      "C": "Showing mercy to others is essential to receive Allah's mercy.",
+      "D": "Charity should only be given during the month of Ramadan."
+    },
+    "correct_answer": "C",
+    "marks": 1
+  }
+]

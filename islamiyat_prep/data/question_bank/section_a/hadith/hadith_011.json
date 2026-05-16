@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Muslim",
+    "arabic_text": "إِنَّ اللَّهَ لَا يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ، وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ",
+    "english_translation": "Allah does not look at your appearance or your wealth, but He looks at your hearts and your actions.",
+    "question": "What is the correct translation of the Arabic phrase 'وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ' from this Hadith?",
+    "options": {
+      "A": "But He looks at your prayers and your fasting",
+      "B": "But He looks at your knowledge and your deeds",
+      "C": "But He looks at your hearts and your actions",
+      "D": "But He looks at your intentions and your charity"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Muslim",
+    "arabic_text": "إِنَّ اللَّهَ لَا يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ، وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ",
+    "english_translation": "Allah does not look at your appearance or your wealth, but He looks at your hearts and your actions.",
+    "question": "In which authentic collection of Hadith is this narration found?",
+    "options": {
+      "A": "Sahih al-Bukhari",
+      "B": "Sunan Abu Dawud",
+      "C": "Jami' at-Tirmidhi",
+      "D": "Sahih Muslim"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Muslim",
+    "arabic_text": "إِنَّ اللَّهَ لَا يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ، وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ",
+    "english_translation": "Allah does not look at your appearance or your wealth, but He looks at your hearts and your actions.",
+    "question": "What is the main Islamic teaching established by this Hadith?",
+    "options": {
+      "A": "True worth in Islam is judged by sincerity of heart and righteous deeds, not by physical appearance or material wealth",
+      "B": "Muslims should not concern themselves with their physical appearance at all",
+      "C": "Wealth is prohibited in Islam and should be avoided",
+      "D": "Only those who are poor can enter Paradise"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

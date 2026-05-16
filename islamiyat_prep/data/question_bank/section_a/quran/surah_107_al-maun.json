@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Ma'un",
+    "surah_number": 107,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah warns against showing off in worship while neglecting acts of kindness?",
+    "options": {
+      "A": "Al-Ma'un",
+      "B": "Al-Humazah",
+      "C": "Al-Takathur",
+      "D": "Al-Kafirun"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Ma'un",
+    "surah_number": 107,
+    "question_angle": "vocabulary",
+    "arabic_text": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+    "english_translation": "and refuse to give even the simplest aid",
+    "question": "What does ٱلْمَاعُونَ mean in Surah Al-Ma'un?",
+    "options": {
+      "A": "The orphan",
+      "B": "Small acts of kindness or simple aid",
+      "C": "The Day of Judgment",
+      "D": "The poor and needy"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Ma'un",
+    "surah_number": 107,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Ma'un primarily condemns those who:",
+    "options": {
+      "A": "Worship idols and deny the Prophet",
+      "B": "Accumulate wealth and boast about it",
+      "C": "Deny the final Judgment and mistreat the vulnerable",
+      "D": "Reject the Quran and spread lies"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Ma'un",
+    "surah_number": 107,
+    "question_angle": "ayah_detail",
+    "arabic_text": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+    "english_translation": "That is the one who repulses the orphan",
+    "question": "According to Surah Al-Ma'un, how does the one who denies the final Judgment treat the orphan?",
+    "options": {
+      "A": "Ignores them completely",
+      "B": "Provides them with charity",
+      "C": "Encourages others to help them",
+      "D": "Repulses or pushes them away"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Ma'un",
+    "surah_number": 107,
+    "question_angle": "concept",
+    "arabic_text": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+    "english_translation": "yet are unmindful of their prayers",
+    "question": "What key Islamic lesson does Surah Al-Ma'un teach about prayer?",
+    "options": {
+      "A": "Prayer must be performed with sincerity and mindfulness, not as empty ritual",
+      "B": "Prayer is only valid when performed in congregation",
+      "C": "Missing prayer occasionally is acceptable if one is charitable",
+      "D": "Prayer alone is sufficient for salvation without good deeds"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

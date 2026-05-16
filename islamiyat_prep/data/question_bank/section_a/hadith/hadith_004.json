@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "مَا أَكَلَ أَحَدٌ طَعَامًا قَطُّ خَيْرًا مِنْ أَنْ يَأْكُلَ مِنْ عَمَلِ يَدِهِ",
+    "english_translation": "No one has ever eaten better food than that which he earned by the work of his own hands.",
+    "question": "What does the Hadith 'مَا أَكَلَ أَحَدٌ طَعَامًا قَطُّ خَيْرًا مِنْ أَنْ يَأْكُلَ مِنْ عَمَلِ يَدِهِ' emphasize?",
+    "options": {
+      "A": "The importance of sharing food with others",
+      "B": "The virtue of eating only halal food",
+      "C": "The superiority of eating from one's own earnings",
+      "D": "The blessing of eating in congregation"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "مَا أَكَلَ أَحَدٌ طَعَامًا قَطُّ خَيْرًا مِنْ أَنْ يَأْكُلَ مِنْ عَمَلِ يَدِهِ",
+    "english_translation": "No one has ever eaten better food than that which he earned by the work of his own hands.",
+    "question": "In which authentic collection of Hadith is this narration about earning one's living found?",
+    "options": {
+      "A": "Sahih Muslim",
+      "B": "Sunan Abu Dawud",
+      "C": "Jami al-Tirmidhi",
+      "D": "Sahih Bukhari"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "مَا أَكَلَ أَحَدٌ طَعَامًا قَطُّ خَيْرًا مِنْ أَنْ يَأْكُلَ مِنْ عَمَلِ يَدِهِ",
+    "english_translation": "No one has ever eaten better food than that which he earned by the work of his own hands.",
+    "question": "What Islamic principle does this Hadith establish regarding work and livelihood?",
+    "options": {
+      "A": "That earning through one's own effort is dignified and preferred",
+      "B": "That Muslims should avoid manual labor",
+      "C": "That seeking financial help from others is encouraged",
+      "D": "That wealth should only come through inheritance"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

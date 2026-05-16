@@ -745,9 +745,29 @@ elif st.session_state.page == "exam_setup":
             st.stop()
 
         import copy
+
+        def shuffle_mcq_options(q):
+            if q.get("type", "").lower() != "mcq":
+                return q
+            opts = q.get("options", {})
+            if not opts:
+                return q
+            q = q.copy()
+            correct_text = opts.get(q.get("correct_answer", "").strip().upper(), "")
+            letters = sorted(opts.keys())
+            texts = [opts[l] for l in letters]
+            random.shuffle(texts)
+            new_opts = dict(zip(letters, texts))
+            for letter, text in new_opts.items():
+                if text == correct_text:
+                    q["correct_answer"] = letter
+                    break
+            q["options"] = new_opts
+            return q
+
         pool_copy = copy.copy(filtered_pool)
         random.shuffle(pool_copy)
-        selected = pool_copy[:n_questions]
+        selected = [shuffle_mcq_options(q) for q in pool_copy[:n_questions]]
 
         st.session_state.student_name = student_name.strip().title()
         st.session_state.exam_questions = selected

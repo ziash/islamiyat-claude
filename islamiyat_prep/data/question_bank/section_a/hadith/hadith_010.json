@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Muslim",
+    "arabic_text": "إِنَّ الدُّنْيَا سِجْنُ الْمُؤْمِنِ وَجَنَّةُ الْكَافِرِ",
+    "english_translation": "The world is a prison for the believer and a paradise for the disbeliever.",
+    "question": "What is the correct translation of the Arabic phrase 'إِنَّ الدُّنْيَا سِجْنُ الْمُؤْمِنِ وَجَنَّةُ الْكَافِرِ'?",
+    "options": {
+      "A": "The world is a prison for the believer and a paradise for the disbeliever.",
+      "B": "The world is a test for the believer and a trial for the disbeliever.",
+      "C": "The world is temporary for the believer and eternal for the disbeliever.",
+      "D": "The world is a blessing for the believer and a curse for the disbeliever."
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Muslim",
+    "arabic_text": "إِنَّ الدُّنْيَا سِجْنُ الْمُؤْمِنِ وَجَنَّةُ الْكَافِرِ",
+    "english_translation": "The world is a prison for the believer and a paradise for the disbeliever.",
+    "question": "In which authentic Hadith collection is the Hadith 'The world is a prison for the believer and a paradise for the disbeliever' found?",
+    "options": {
+      "A": "Sahih Bukhari",
+      "B": "Sahih Muslim",
+      "C": "Sunan Abu Dawud",
+      "D": "Jami' al-Tirmidhi"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Muslim",
+    "arabic_text": "إِنَّ الدُّنْيَا سِجْنُ الْمُؤْمِنِ وَجَنَّةُ الْكَافِرِ",
+    "english_translation": "The world is a prison for the believer and a paradise for the disbeliever.",
+    "question": "What is the main lesson taught by the Hadith 'The world is a prison for the believer and a paradise for the disbeliever'?",
+    "options": {
+      "A": "Believers should avoid working in this world.",
+      "B": "Disbelievers will never face any punishment.",
+      "C": "Believers should focus on the Hereafter as worldly life involves restrictions and trials.",
+      "D": "Believers are forbidden from enjoying lawful things in this world."
+    },
+    "correct_answer": "C",
+    "marks": 1
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Falaq",
+    "surah_number": 113,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah specifically seeks protection from the evil of envy and witchcraft?",
+    "options": {
+      "A": "Al-Falaq",
+      "B": "Al-Nas",
+      "C": "Al-Ikhlas",
+      "D": "Al-Kafirun"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Falaq",
+    "surah_number": 113,
+    "question_angle": "vocabulary",
+    "arabic_text": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+    "english_translation": "Say: I seek refuge with the Lord of the daybreak",
+    "question": "What does the word ٱلْفَلَقِ mean in Surah Al-Falaq?",
+    "options": {
+      "A": "The darkness",
+      "B": "The daybreak",
+      "C": "The creation",
+      "D": "The protection"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Falaq",
+    "surah_number": 113,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Falaq is primarily a supplication for:",
+    "options": {
+      "A": "Guidance and wisdom",
+      "B": "Forgiveness of sins",
+      "C": "Protection from various forms of evil",
+      "D": "Increase in sustenance"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Falaq",
+    "surah_number": 113,
+    "question_angle": "ayah_detail",
+    "arabic_text": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+    "english_translation": "and from the evil of the witchcrafts when they blow in the knots",
+    "question": "According to Surah Al-Falaq, from what specific action of witchcraft does the believer seek protection?",
+    "options": {
+      "A": "Those who write evil spells",
+      "B": "Those who cast the evil eye",
+      "C": "Those who spread false rumors",
+      "D": "Those who blow in the knots"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Falaq",
+    "surah_number": 113,
+    "question_angle": "concept",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "What fundamental Islamic concept does Surah Al-Falaq reinforce about seeking protection?",
+    "options": {
+      "A": "Protection should only be sought through the Lord, not through amulets or charms",
+      "B": "Protection is guaranteed to those who recite the Quran regularly",
+      "C": "Protection from evil requires fasting and charity",
+      "D": "Protection comes from avoiding all contact with non-believers"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "marks": 1,
+    "hadith_reference": "Sahih Muslim",
+    "arabic_text": "رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ، وَذَلِكَ أَضْعَفُ الإِيمَانِ",
+    "english_translation": "Whoever sees an evil, let him change it with his hand; if he cannot, then with his tongue; if he cannot, then with his heart – and that is the weakest of faith.",
+    "question": "According to this hadith, what is the first and strongest way a Muslim should respond when witnessing an evil action?",
+    "options": {
+      "A": "By speaking against it with the tongue",
+      "B": "By changing it with the hand (taking physical action)",
+      "C": "By making du'a (supplication) to Allah",
+      "D": "By disliking it in the heart"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "marks": 1,
+    "hadith_reference": "Sahih Muslim",
+    "arabic_text": "رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ، وَذَلِكَ أَضْعَفُ الإِيمَانِ",
+    "english_translation": "Whoever sees an evil, let him change it with his hand; if he cannot, then with his tongue; if he cannot, then with his heart – and that is the weakest of faith.",
+    "question": "In which authentic collection of hadith is this narration about forbidding evil found?",
+    "options": {
+      "A": "Sunan Abu Dawud",
+      "B": "Jami' at-Tirmidhi",
+      "C": "Sahih al-Bukhari",
+      "D": "Sahih Muslim"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "marks": 1,
+    "hadith_reference": "Sahih Muslim",
+    "arabic_text": "رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ، وَذَلِكَ أَضْعَفُ الإِيمَانِ",
+    "english_translation": "Whoever sees an evil, let him change it with his hand; if he cannot, then with his tongue; if he cannot, then with his heart – and that is the weakest of faith.",
+    "question": "What is the main Islamic principle taught by this hadith?",
+    "options": {
+      "A": "The obligation of commanding good and forbidding evil (al-amr bil ma'ruf wan-nahy 'anil munkar)",
+      "B": "The importance of maintaining family ties",
+      "C": "The obligation of performing the five daily prayers",
+      "D": "The virtue of patience in times of hardship"
+    },
+    "correct_answer": "A"
+  }
+]

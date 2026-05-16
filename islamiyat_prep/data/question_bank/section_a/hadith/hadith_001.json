@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Muslim",
+    "arabic_text": "الدِّينُ النَّصِيحَةُ قُلْنَا: لِمَنْ؟ قَالَ: لِلَّهِ وَلِكِتَابِهِ وَلِرَسُولِهِ وَلِأَئِمَّةِ الْمُسْلِمِينَ وَعَامَّتِهِمْ",
+    "english_translation": "Religion is sincerity. We said: To whom? He said: To Allah, His Book, His Messenger, and to the leaders of the Muslims and their common folk.",
+    "question": "What is the correct meaning of 'الدِّينُ النَّصِيحَةُ' in this Hadith?",
+    "options": {
+      "A": "Religion is sincerity",
+      "B": "Religion is prayer",
+      "C": "Religion is charity",
+      "D": "Religion is fasting"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Muslim",
+    "arabic_text": "الدِّينُ النَّصِيحَةُ قُلْنَا: لِمَنْ؟ قَالَ: لِلَّهِ وَلِكِتَابِهِ وَلِرَسُولِهِ وَلِأَئِمَّةِ الْمُسْلِمِينَ وَعَامَّتِهِمْ",
+    "english_translation": "Religion is sincerity. We said: To whom? He said: To Allah, His Book, His Messenger, and to the leaders of the Muslims and their common folk.",
+    "question": "In which authentic collection of Hadith is this narration about sincerity recorded?",
+    "options": {
+      "A": "Sahih Bukhari",
+      "B": "Sahih Muslim",
+      "C": "Sunan Abu Dawud",
+      "D": "Jami' at-Tirmidhi"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Muslim",
+    "arabic_text": "الدِّينُ النَّصِيحَةُ قُلْنَا: لِمَنْ؟ قَالَ: لِلَّهِ وَلِكِتَابِهِ وَلِرَسُولِهِ وَلِأَئِمَّةِ الْمُسْلِمِينَ وَعَامَّتِهِمْ",
+    "english_translation": "Religion is sincerity. We said: To whom? He said: To Allah, His Book, His Messenger, and to the leaders of the Muslims and their common folk.",
+    "question": "According to this Hadith, what is the primary teaching about the essence of Islam?",
+    "options": {
+      "A": "Islam requires only belief in Allah",
+      "B": "Islam is based on five pillars alone",
+      "C": "Islam is founded on sincerity to Allah, His Book, His Messenger, Muslim leaders and common Muslims",
+      "D": "Islam requires sincerity only to the Messenger"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  }
+]

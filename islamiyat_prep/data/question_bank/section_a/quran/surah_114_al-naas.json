@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Naas",
+    "surah_number": 114,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah teaches Muslims to seek Allah's protection from evil whisperings that affect the human heart?",
+    "options": {
+      "A": "Al-Naas",
+      "B": "Al-Falaq",
+      "C": "Al-Ikhlas",
+      "D": "Al-Masad"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Naas",
+    "surah_number": 114,
+    "question_angle": "vocabulary",
+    "arabic_text": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+    "english_translation": "from the mischief of the whisperer who withdraws",
+    "question": "What does the term ٱلْوَسْوَاسِ ٱلْخَنَّاسِ refer to in Surah Al-Naas?",
+    "options": {
+      "A": "The severe punishment",
+      "B": "The whisperer who withdraws",
+      "C": "The blazing fire",
+      "D": "The rope of palm-fibre"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Naas",
+    "surah_number": 114,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Naas primarily teaches believers to:",
+    "options": {
+      "A": "Declare the Oneness of Allah",
+      "B": "Remember the blessings of Allah",
+      "C": "Seek refuge with the Lord of mankind from evil whisperings",
+      "D": "Pray regularly at fixed times"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Naas",
+    "surah_number": 114,
+    "question_angle": "ayah_detail",
+    "arabic_text": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+    "english_translation": "among jinns and among mankind",
+    "question": "According to Surah Al-Naas, from which two types of beings can evil whispers originate?",
+    "options": {
+      "A": "Angels and mankind",
+      "B": "Prophets and disbelievers",
+      "C": "Animals and jinns",
+      "D": "Jinns and mankind"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Naas",
+    "surah_number": 114,
+    "question_angle": "concept",
+    "arabic_text": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ ١ مَلِكِ ٱلنَّاسِ ٢ إِلَٰهِ ٱلنَّاسِ",
+    "english_translation": "Say: I seek refuge with the Lord of mankind, the King of mankind, the God of mankind",
+    "question": "What key concept about Allah's relationship with humanity is emphasized through the three descriptions in the opening verses of Surah Al-Naas?",
+    "options": {
+      "A": "Allah's complete authority, sovereignty and divinity over all mankind",
+      "B": "Allah's mercy and forgiveness for sinners",
+      "C": "Allah's knowledge of the unseen",
+      "D": "Allah's power to create and destroy"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

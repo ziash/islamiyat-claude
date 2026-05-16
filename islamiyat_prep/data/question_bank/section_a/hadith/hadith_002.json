@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+    "english_translation": "None of you truly believes until he loves for his brother what he loves for himself.",
+    "question": "What is the correct translation of the Arabic phrase 'حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ' from this Hadith?",
+    "options": {
+      "A": "Until he loves Allah more than himself",
+      "B": "Until he loves for his brother what he loves for himself",
+      "C": "Until he prays for his brother as he prays for himself",
+      "D": "Until he gives charity to his brother from his wealth"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+    "english_translation": "None of you truly believes until he loves for his brother what he loves for himself.",
+    "question": "In which authentic collection of Hadith is this narration found?",
+    "options": {
+      "A": "Sahih Muslim",
+      "B": "Sunan Abu Dawud",
+      "C": "Jami' at-Tirmidhi",
+      "D": "Sahih Bukhari"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+    "english_translation": "None of you truly believes until he loves for his brother what he loves for himself.",
+    "question": "What is the main Islamic teaching established by this Hadith?",
+    "options": {
+      "A": "The perfection of faith is linked to selflessness and desiring good for others",
+      "B": "Muslims must give all their wealth to their brothers",
+      "C": "Belief is only complete through fasting and prayer",
+      "D": "Brotherhood is only for blood relatives"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

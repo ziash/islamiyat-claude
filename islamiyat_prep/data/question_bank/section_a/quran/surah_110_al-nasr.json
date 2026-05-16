@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Nasr",
+    "surah_number": 110,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah addresses the divine help and the final victory of Islam?",
+    "options": {
+      "A": "Surah Al-Nasr",
+      "B": "Surah Al-Fath",
+      "C": "Surah Al-Anfal",
+      "D": "Surah Al-Tawbah"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Nasr",
+    "surah_number": 110,
+    "question_angle": "vocabulary",
+    "arabic_text": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
+    "english_translation": "and you see that the people enter Allah's religion in crowds",
+    "question": "What does the word أَفْوَاجًا mean in Surah Al-Nasr?",
+    "options": {
+      "A": "In groups",
+      "B": "In crowds",
+      "C": "In processions",
+      "D": "In multitudes"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Nasr",
+    "surah_number": 110,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Nasr primarily speaks about:",
+    "options": {
+      "A": "The Day of Judgment and accountability",
+      "B": "The duties of worship and prayer",
+      "C": "The conquest of Makkah and people embracing Islam",
+      "D": "The migration from Makkah to Madinah"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Nasr",
+    "surah_number": 110,
+    "question_angle": "ayah_detail",
+    "arabic_text": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+    "english_translation": "When comes the Help of Allah and the conquest of Makkah",
+    "question": "What specific conquest is mentioned in Surah Al-Nasr?",
+    "options": {
+      "A": "The conquest of Khaybar",
+      "B": "The conquest of Taif",
+      "C": "The conquest of Badr",
+      "D": "The conquest of Makkah"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Nasr",
+    "surah_number": 110,
+    "question_angle": "concept",
+    "arabic_text": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ إِنَّهُۥ كَانَ تَوَّابًا",
+    "english_translation": "then glorify the praises of your Lord and ask for His forgiveness. Verily, He is the One Who accepts repentance and forgives",
+    "question": "What does Surah Al-Nasr teach about the response to Allah's blessings and victory?",
+    "options": {
+      "A": "To celebrate and rejoice with the people",
+      "B": "To glorify Allah and seek His forgiveness",
+      "C": "To prepare for further battles and expansion",
+      "D": "To establish laws and governance immediately"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  }
+]

@@ -1,62 +1,311 @@
-# Project: IGCSE Islamiyat Exam Prep
+# IGCSE Islamiyat Exam Prep — Project Guide
 
-Streamlit app that helps students prepare for the LRN Global Board IGCSE Islamiyat exam. Uses Claude AI (Anthropic SDK) to generate questions and provide post-exam feedback.
+Streamlit app that prepares students for the **LRN Global Board IGCSE Islamiyat (2141)** exam. Uses Claude AI to generate practice questions and provide post-exam feedback.
 
 ## Run
 ```bash
-streamlit run islamiyat_prep/app.py
+cd islamiyat_prep
+streamlit run app.py
 ```
-Requires `ANTHROPIC_API_KEY` in `.env`.
+Requires `ANTHROPIC_API_KEY` in `islamiyat_prep/.env`.
 
-## Key Files
+---
+
+## LRN Exam Structure (essential context)
+
+The exam is **2h 30min, 70 marks total**, one written paper. Understanding this structure is critical — all question generation, exam simulation, and scoring is built around it.
+
+| Section | Marks | Format | Source |
+|---------|-------|--------|--------|
+| A | 20 | 20 MCQs, 1 mark each, no negative marking | Appendix 1 & 2 of spec: 15 surahs + 15 ahadith |
+| B | 25 | 2 questions answered (Q1 compulsory + 1 from Q2/Q3) | Topics 1–4 |
+| C | 25 | 2 questions answered (Q4 compulsory + 1 from Q5/Q6) | Topics 5–8 |
+
+**Section A breakdown (sample paper pattern):** ~13 Quran MCQs + ~7 Hadith MCQs per exam.
+
+**Section A Quran question angles** (from official sample paper analysis):
+1. `theme` — which surah warns about / addresses a topic
+2. `vocabulary` — meaning of a specific Arabic word from the surah
+3. `content` — what the surah is about / who it addresses
+4. `ayah_detail` — specific concrete detail from a verse
+5. `concept` — key Islamic concept or doctrinal point the surah establishes
+
+**Reference documents** (stored at `/home/zia/Documents/lrn_resources/`):
+
 | File | Purpose |
 |------|---------|
-| `islamiyat_prep/app.py` | Entire application — all pages, UI, logic |
-| `islamiyat_prep/data/syllabus.json` | Parsed curriculum (15 surahs, 15 ahadith, B/C topics) |
-| `islamiyat_prep/data/memorize_content.json` | Flashcard data (cards with Arabic + English lines) |
-| `islamiyat_prep/data/question_bank/` | Generated MCQ/extended questions, one JSON per topic |
-| `islamiyat_prep/data/students/{name}/` | Per-student progress logs and exam attempt files |
-| `islamiyat_prep/tasks/generate_questions.py` | Claude API calls for question generation |
-| `islamiyat_prep/tasks/ingest_syllabus.py` | PDF/DOCX → syllabus.json via Claude |
-| `islamiyat_prep/utils/claude_client.py` | Anthropic SDK wrapper |
+| `LRN_International_GCSE_Islamiyat_Specification_2141.pdf` | Official spec: full syllabus, AOs, Appendix 1 (15 surahs Arabic+English), Appendix 2 (15 ahadith Arabic+English) |
+| `LRN_International_GCSE_Islamiyat_Sample_paper.pdf` | Official 7-page sample paper (20 MCQs + Sections B/C) |
+| `LRN_International_GCSE_Islamiyat_Sample_paper- Mark Scheme.pdf` | 16-page mark scheme with level descriptors and mark breakdowns |
+| `International_GCSE_Islamiat_topic_overview.pdf` | Topic overview summary |
+| `All major Battles in Islam.pdf` | Section C Topic 5 battle revision notes |
+| `Background and Early Life of the Prophet Muhammad (pbuh).pdf` | Section B Topic 1 notes |
+| `Belief in Revealed Scriptures.pdf` | Section B Topic 4 notes |
+| `Significance of the Prophet's (pbuh) descendants.pdf` | Section B Topic 3 notes |
+| `wives of Prophet swt.pdf` | Section B Topic 3 notes |
+| `Prophet Muhammad's (P.B.U.H) life in Makkah.pdf` | Sections B/C chronological timeline |
+| `Prophet Muhammad's (P.B.U.H) life in Madina (1).pdf` | Section C Topic 5 notes |
+| `Expedition of Tabuk, Last sermon & Final Day of Prophet Muhammad (P.B.U.H).pdf` | Section C Topic 5 notes |
 
-## Page Routing
-`st.session_state.page` controls which page renders. Values:
-- `home` — overview + quick start
-- `ingest` — upload syllabus / sample paper
-- `generate` — generate question bank via Claude
-- `exam_setup` — configure exam (sections, count, timer)
-- `exam` — active timed exam
-- `results` — scores, AI feedback, history
-- `memorize_select` — topic selection for flashcard practice
-- `memorize_card` — interactive typing flashcard
+Also: `/home/zia/Documents/LRN_IGCSE_Islamiyat_Paper1_2025.pdf` — actual 2025 exam paper.
 
-## Memorize Page Key Session State
-- `mem_grp_{group_id}` — bool, whether a topic group is selected
-- `_mem_cat_cb_{cat_key}` — bool, per-category "Select all" checkbox widget state
-- `_mem_cat_all_{cat_key}` — bool, tracked previous state for per-category checkbox
-- `_mem_select_all_cb` / `_mem_all_state` — global Select All checkbox state
-- `mem_queue`, `mem_idx`, `mem_groups_selected` — active flashcard session
+---
 
-## Exam Key Session State
-- `student_name` — current student (used for per-student data paths)
-- `exam_questions` — list of question dicts for current session
-- `exam_answers` — dict of question_index → student answer
-- `exam_flagged` — set of flagged question indices
-- `exam_start_time`, `exam_duration_sec` — timer data
+## File Structure
+
+```
+islamiyat_prep/
+├── app.py                        # Entire UI — all pages, routing, exam logic (1806 lines)
+├── .env                          # ANTHROPIC_API_KEY (not in git)
+├── requirements.txt              # streamlit, anthropic, pymupdf, python-docx, python-dotenv
+├── tasks/
+│   ├── generate_questions.py     # Claude prompts + generation functions for all question types
+│   ├── ingest_syllabus.py        # Upload syllabus PDF/DOCX → structured syllabus.json via Claude
+│   ├── ingest_paper.py           # Upload sample paper + mark scheme → sample_paper.json via Claude
+│   └── __init__.py
+├── utils/
+│   ├── claude_client.py          # Anthropic SDK wrapper (model: claude-sonnet-4-5)
+│   ├── arabic_utils.py           # render_arabic() RTL HTML component, arabic_badge()
+│   ├── pdf_parser.py             # PyMuPDF + python-docx text extraction
+│   └── __init__.py
+└── data/
+    ├── syllabus.json             # Parsed curriculum (authoritative source for generation)
+    ├── memorize_content.json     # Flashcard data for memorize pages
+    ├── sample_paper.json         # Parsed sample paper+markscheme (generated by ingest_paper)
+    ├── question_bank/
+    │   ├── section_a/
+    │   │   ├── quran/            # One JSON per surah: surah_{number}_{slug}.json
+    │   │   │   └── sample_quran_mcqs.json   # Legacy seed file (19 old-format questions)
+    │   │   └── hadith/           # One JSON per hadith: hadith_{number:03d}.json
+    │   │       └── sample_hadith_mcqs.json  # Seed file (12 questions)
+    │   ├── section_b/
+    │   │   └── topic_{n}_{slug}.json        # Extended questions per topic
+    │   └── section_c/
+    │       └── topic_{n}_{slug}.json        # Extended questions per topic
+    └── students/
+        └── {StudentName}/
+            ├── progress.json     # List of progress log entries
+            └── attempts/
+                └── attempt_{YYYYMMDD}_{HHMMSS}.json
+```
+
+Also at project root:
+- `PDF/Tier1_Exam_Notes.pdf` — study notes PDF (not ingested yet)
+
+---
+
+## Key Source Files — Purpose & Logic
+
+### `app.py`
+Single-file Streamlit app. All UI, page routing, exam engine, and scoring live here.
+
+- **CSS theming** (lines ~30–380): Islamic green/gold palette, Amiri font for Arabic, custom Streamlit overrides.
+- **`ss(key, default)`** (line 382): Safe `st.session_state` getter with default.
+- **Sidebar** (lines ~400–430): Navigation buttons that set `st.session_state.page`.
+- **Page blocks** (line 435+): `if/elif` chain on `st.session_state.page`.
+- **Exam engine** (`exam` page): draws questions from `exam_questions`, records `exam_answers`, handles timer countdown and flagging.
+- **Scoring** (`submit_exam` page): calculates per-section scores, calls Claude for AI feedback, writes `progress.json` and `attempts/` file.
+- **Memorize engine** (`memorize_card` page): flashcard loop over `mem_queue`, Arabic typing practice with check/reveal.
+
+### `tasks/generate_questions.py`
+All Claude-powered question generation. Three prompts, three generators.
+
+**`SURAH_TEXTS` dict** (key: surah number 100–114): Authoritative Arabic + English text for all 15 surahs, sourced directly from LRN spec Appendix 1. This is the ground truth for question generation — Claude is given the exact text rather than recalling from memory.
+
+**`QURAN_PROMPT`**: Generates exactly 5 MCQs per surah — one per angle (theme, vocabulary, content, ayah_detail, concept). Output schema includes `question_angle` field. Expected output: 75 Quran MCQs total when all 15 surahs generated.
+
+**`HADITH_PROMPT`**: Generates 3+ MCQs per hadith (translation, context, lesson/ruling angles). Input: arabic + english + reference from `syllabus.json`. Expected output: 45+ Hadith MCQs total.
+
+**`EXTENDED_PROMPT`**: Generates fill_blank, complete_sentence, short_answer, essay questions for Section B/C topics. Uses CEO pattern for battles (Cause/Events/Outcome) and requires Hijri+CE dates for post-Hijrah events.
+
+**Generation flow**: `app.py` (generate page) → calls `generate_quran_mcqs(surahs)` / `generate_hadith_mcqs(ahadith)` / `generate_extended_questions(topics, section)` → saves one JSON file per surah/hadith/topic → `load_all_questions()` reads all files for exam use.
+
+### `tasks/ingest_syllabus.py`
+Upload a PDF or DOCX of the LRN spec → Claude extracts structured syllabus → saves `data/syllabus.json`. Has `get_default_syllabus()` fallback with all 15 surahs and all 15 ahadith hardcoded (used when no upload has been done yet).
+
+### `tasks/ingest_paper.py`
+Upload sample paper PDF + mark scheme PDF → Claude pairs questions with answers → saves `data/sample_paper.json`. Used by the `ingest` page in the app.
+
+### `utils/claude_client.py`
+Thin wrapper around `anthropic.Anthropic`. Model: `claude-sonnet-4-5`. Lazy singleton client. `call_claude(prompt, system, max_tokens)` is the only entry point.
+
+### `utils/arabic_utils.py`
+`render_arabic(text, translation, transliteration, height)` — injects an iframe with RTL Arabic in Amiri font. Used on flashcard and exam pages. `arabic_badge(text)` — returns inline HTML span for use in `st.markdown`.
+
+---
 
 ## Data Schemas
-**Question (MCQ):** `{section, type:"MCQ", source_type, arabic, english, question, options:{A,B,C,D}, correct_answer, marks}`
 
-**Question (Extended):** `{section, type, topic, question, model_answer, marks}`
+### `syllabus.json`
+```json
+{
+  "syllabus": {
+    "section_a": {
+      "title": "The Holy Quran and Ahadith",
+      "quran": {
+        "surahs": [{"surah_name": "Al-Adiyat", "surah_number": 100, "ayat_count": 11}, ...]
+      },
+      "ahadith": [{"hadith_number": 1, "arabic": "...", "translation": "...", "reference": "Sahih Bukhari"}, ...]
+    },
+    "section_b": {"topics": [{"topic_number": 1, "title": "...", "subtopics": [...], "arabic_terms": [...]}, ...]},
+    "section_c": {"topics": [{"topic_number": 5, "title": "...", "subtopics": [...], "arabic_terms": [...]}, ...]}
+  }
+}
+```
 
-**Progress log entry:** `{date, time, score, percentage, mode, sections, weak_sections}` — mode is `"memorize"` or omitted for exams
+**Section A surahs**: 15 total, numbers 100–114 (Al-Adiyat through Al-Naas).
+**Section A ahadith**: 15 total (numbered 1–15), matching LRN spec Appendix 2.
+**Section B topics**: 1 (Prophet's Journey), 2 (Quran Revelation to Compilation), 3 (Community of Believers), 4 (Foundation of Islamic Faith).
+**Section C topics**: 5 (Prophet's Life in Madina), 6 (Hadith & Sunnah), 7 (Foundation of Society), 8 (Main Practices in Islam).
 
-## Display Categories (memorize_select page)
-`DISPLAY_CATEGORIES` list order: `quran_surahs`, `ahadith`, `prophets_life`, `battles`, `treaties`, `companions`, `wives`, `ahl_e_bayt`, `islamic_law`, `faith`, `society`, `pillars`
+### Question (Quran MCQ — new format after redesign)
+```json
+{
+  "section": "A", "type": "MCQ", "source_type": "Quranic",
+  "surah_name": "Al-Fil", "surah_number": 105,
+  "question_angle": "ayah_detail",
+  "arabic_text": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+  "english_translation": "that pelted them with stones of baked clay",
+  "question": "What did the birds pelt the army with in Surah Al-Fil?",
+  "options": {"A": "Regular stones", "B": "Baked clay stones", "C": "Gold coins", "D": "Fire"},
+  "correct_answer": "B", "marks": 1
+}
+```
+Note: Old questions in `sample_quran_mcqs.json` use `ayat_number` instead of `question_angle` — both formats are loaded by `load_all_questions()`.
+
+### Question (Hadith MCQ)
+```json
+{
+  "section": "A", "type": "MCQ", "source_type": "Hadith",
+  "hadith_reference": "Sahih Bukhari",
+  "arabic_text": "...", "english_translation": "...",
+  "question": "...",
+  "options": {"A": "...", "B": "...", "C": "...", "D": "..."},
+  "correct_answer": "C", "marks": 1
+}
+```
+
+### Question (Extended — Sections B/C)
+```json
+{
+  "section": "B", "type": "short_answer",
+  "topic_number": 1, "topic_title": "Journey of the Holy Prophet Muhammad (pbuh)",
+  "question": "...", "arabic_text": "...", "transliteration": "...", "english_translation": "...",
+  "model_answer": "...", "marks": 4
+}
+```
+`type` values: `"fill_blank"` | `"complete_sentence"` | `"short_answer"` | `"essay"`
+
+### Student Attempt (`attempts/attempt_{timestamp}.json`)
+```json
+{
+  "student": "Baba", "timestamp": "2026-03-25T03:28:22",
+  "sections_attempted": ["A"], "score": 7, "total": 19, "percentage": 36.8,
+  "time_taken_seconds": 412, "weak_sections": ["A"],
+  "section_scores": {"A": {"score": 7, "total": 19, "source": "Quranic"}},
+  "question_results": [{
+    "question_id": 0, "section": "A", "source_type": "Quranic",
+    "question": "...", "student_answer": "B", "correct_answer": "A",
+    "model_answer": "", "correct": false, "marks_earned": 0, "marks_available": 1
+  }]
+}
+```
+
+### Progress Log (`students/{name}/progress.json`)
+List of entries appended after each exam/session:
+```json
+[{"date": "2026-03-25", "time": "03:28", "score": 7, "percentage": 36.8,
+  "mode": "exam", "sections": ["A"], "weak_sections": ["A"]}]
+```
+`mode` is `"memorize"` for flashcard sessions, omitted or `"exam"` for exam sessions.
+
+---
+
+## Page Routing
+
+`st.session_state.page` controls rendering. All pages are `if/elif` blocks in `app.py`.
+
+| Page value | Description |
+|------------|-------------|
+| `home` | Dashboard — stats, quick start buttons |
+| `ingest` | Upload syllabus PDF/DOCX and/or sample paper + mark scheme |
+| `generate` | Generate question bank via Claude (shows progress, counts per section) |
+| `exam_setup` | Configure exam: student name, sections (A/B/C), question count, timer |
+| `exam` | Active timed exam — question display, answer selection, flagging |
+| `submit_exam` | Review flagged + unanswered, then confirm submit |
+| `results` | Score breakdown, AI feedback, attempt history |
+| `memorize_select` | Topic selection UI for flashcard practice |
+| `memorize_card` | Interactive typing flashcard (Arabic → type English) |
+
+---
+
+## Session State Reference
+
+### Exam State
+| Key | Type | Purpose |
+|-----|------|---------|
+| `student_name` | str | Current student — used for data file paths |
+| `exam_questions` | list | All questions for current session |
+| `exam_answers` | dict | `{question_index: answer_letter}` |
+| `exam_flagged` | set | Indices of flagged questions |
+| `exam_start_time` | float | `time.time()` when exam started |
+| `exam_duration_sec` | int | Timer duration in seconds (0 = no timer) |
+
+### Memorize State
+| Key | Type | Purpose |
+|-----|------|---------|
+| `mem_grp_{group_id}` | bool | Whether a topic group is selected |
+| `_mem_cat_cb_{cat_key}` | bool | Per-category "Select all" checkbox widget state |
+| `_mem_cat_all_{cat_key}` | bool | Previous state tracker for per-category checkbox |
+| `_mem_select_all_cb` | bool | Global "Select All" checkbox widget state |
+| `_mem_all_state` | bool | Previous state tracker for global checkbox |
+| `mem_queue` | list | Flashcard items for current session |
+| `mem_idx` | int | Current position in mem_queue |
+| `mem_groups_selected` | list | Group IDs selected for current session |
+
+---
+
+## Memorize Page — Display Categories
+
+`DISPLAY_CATEGORIES` in `app.py` defines the order of topic groups on `memorize_select`:
+`quran_surahs`, `ahadith`, `prophets_life`, `battles`, `treaties`, `companions`, `wives`, `ahl_e_bayt`, `islamic_law`, `faith`, `society`, `pillars`
+
+Content is loaded from `data/memorize_content.json` — each group has an `id`, `category`, `label`, and `cards` list with `arabic`/`english` line pairs.
+
+---
+
+## Current Question Bank Status (as of last generation)
+
+| Bank | Files | Count | Notes |
+|------|-------|-------|-------|
+| Section A — Quran | `quran/sample_quran_mcqs.json` | 19 | Old per-ayah format; needs regeneration with new 5-angle prompt |
+| Section A — Hadith | `hadith/sample_hadith_mcqs.json` | 12 | Partial; needs full generation for all 15 ahadith |
+| Section B | `sample_extended.json` | 65 | Generated |
+| Section C | `sample_extended.json` | 26 | Partially generated |
+
+**After full regeneration** (run the Generate page): ~75 Quran MCQs + ~45 Hadith MCQs + existing B/C questions.
+
+---
 
 ## Tech Stack
-- **UI:** Streamlit
-- **AI:** Claude via `anthropic` Python SDK (model: claude-sonnet-4-5 for generation)
-- **PDF:** PyMuPDF (`fitz`), `python-docx`
-- **Storage:** JSON files on disk (no database)
+
+| Layer | Technology |
+|-------|-----------|
+| UI | Streamlit (single-page app with session state routing) |
+| AI | Claude via `anthropic` Python SDK — model `claude-sonnet-4-5` |
+| PDF parsing | PyMuPDF (`fitz`) for PDF, `python-docx` for DOCX |
+| Arabic rendering | Amiri font via Google Fonts, injected HTML iframe |
+| Storage | JSON files on disk — no database |
+
+---
+
+## Design Decisions & Constraints
+
+- **No database**: all data in JSON files. Student data at `data/students/{name}/`. Case-sensitive: "Baba" ≠ "baba" — existing duplicate dirs are a known issue.
+- **`load_all_questions()`** walks the entire `question_bank/` tree and reads every `.json` file. Supports both list-root and `{"questions": [...]}` formats.
+- **Quran MCQ redesign**: Old questions (per-ayah, `ayat_number` field) coexist with new questions (`question_angle` field). Both load fine via `load_all_questions()`. Old `sample_quran_mcqs.json` will be overwritten when the generate page is run for those surahs.
+- **Surah text source**: `SURAH_TEXTS` in `generate_questions.py` contains the authoritative Arabic + English for all 15 surahs, copied verbatim from LRN spec Appendix 1. Do not replace these with other translations — they must match the exam source.
+- **Hadith text source**: The 15 ahadith are defined in `get_default_syllabus()` in `ingest_syllabus.py` and in `syllabus.json`. They match LRN spec Appendix 2 exactly.
+- **Extended question rules**: battles use CEO pattern (Cause/Events/Outcome); events after Hijrah (622 CE) include both AH and CE dates.
+- **AI feedback**: called once on exam submit with the full question results; result stored in attempt file and displayed on results page.
+- **Timer**: optional — set to 0 for untimed practice. Countdown shown in sidebar during exam.

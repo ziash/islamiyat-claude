@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "أَنَا وَكَافِلُ الْيَتِيمِ فِي الْجَنَّةِ هَكَذَا وَقَالَ: بِإِصْبَعَيْهِ السَّبَّابَةِ وَالْوُسْطَى",
+    "english_translation": "I and the one who cares for an orphan will be in Paradise like this – and he indicated his index and middle fingers.",
+    "question": "What does the Prophet (pbuh) mean by 'kafil al-yatim' in this hadith?",
+    "options": {
+      "A": "One who teaches orphans",
+      "B": "One who cares for an orphan",
+      "C": "One who feeds orphans",
+      "D": "One who adopts orphans"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "أَنَا وَكَافِلُ الْيَتِيمِ فِي الْجَنَّةِ هَكَذَا وَقَالَ: بِإِصْبَعَيْهِ السَّبَّابَةِ وَالْوُسْطَى",
+    "english_translation": "I and the one who cares for an orphan will be in Paradise like this – and he indicated his index and middle fingers.",
+    "question": "In which authentic collection of hadith is this narration found?",
+    "options": {
+      "A": "Sahih Muslim",
+      "B": "Sunan Abu Dawud",
+      "C": "Sahih Bukhari",
+      "D": "Muwatta Malik"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "أَنَا وَكَافِلُ الْيَتِيمِ فِي الْجَنَّةِ هَكَذَا وَقَالَ: بِإِصْبَعَيْهِ السَّبَّابَةِ وَالْوُسْطَى",
+    "english_translation": "I and the one who cares for an orphan will be in Paradise like this – and he indicated his index and middle fingers.",
+    "question": "What is the main Islamic teaching established by this hadith?",
+    "options": {
+      "A": "Orphans should be sent to special schools",
+      "B": "Muslims must donate money to orphanages",
+      "C": "Adoption is mandatory in Islam",
+      "D": "Caring for orphans brings one close to the Prophet (pbuh) in Paradise"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  }
+]

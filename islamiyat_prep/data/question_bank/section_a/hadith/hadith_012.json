@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "رَحِمَ اللَّهُ رَجُلًا سَمْحًا، إِذَا بَاعَ، وَإِذَا اشْتَرَى، وَإِذَا اقْتَضَى",
+    "english_translation": "May Allah have mercy on a man who is kind when he sells, when he buys, and when he asks for payment.",
+    "question": "What is the correct translation of the phrase 'سَمْحًا' in this Hadith?",
+    "options": {
+      "A": "Generous and kind",
+      "B": "Strict and firm",
+      "C": "Quick and hasty",
+      "D": "Patient and waiting"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "رَحِمَ اللَّهُ رَجُلًا سَمْحًا، إِذَا بَاعَ، وَإِذَا اشْتَرَى، وَإِذَا اقْتَضَى",
+    "english_translation": "May Allah have mercy on a man who is kind when he sells, when he buys, and when he asks for payment.",
+    "question": "In which authentic collection of Hadith is this saying of the Prophet (pbuh) recorded?",
+    "options": {
+      "A": "Sunan Abu Dawud",
+      "B": "Sahih Bukhari",
+      "C": "Muwatta Imam Malik",
+      "D": "Sunan Ibn Majah"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "رَحِمَ اللَّهُ رَجُلًا سَمْحًا، إِذَا بَاعَ، وَإِذَا اشْتَرَى، وَإِذَا اقْتَضَى",
+    "english_translation": "May Allah have mercy on a man who is kind when he sells, when he buys, and when he asks for payment.",
+    "question": "What is the main Islamic teaching established by this Hadith?",
+    "options": {
+      "A": "Muslims must always sell at the lowest prices",
+      "B": "Debt collection should be done through legal authorities only",
+      "C": "Kindness and good conduct should be shown in all business transactions",
+      "D": "Business dealings are discouraged in Islam"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  }
+]

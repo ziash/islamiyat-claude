@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "إِنَّ رَجُلًا سَأَلَ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: أَيُّ الإِسْلَامِ أَفْضَلُ؟ فَقَالَ: تُطْعِمُ الطَّعَامَ، وَتَقْرَأُ السَّلَامَ عَلَى مَنْ عَرَفْتَ وَمَنْ لَمْ تَعْرِفْ",
+    "english_translation": "A man asked the Messenger of Allah: Which Islam is best? He said: Feed others, and greet with peace those you know and those you do not know.",
+    "question": "According to this hadith, what did the Prophet (pbuh) say is the best form of Islam?",
+    "options": {
+      "A": "Praying five times daily and fasting in Ramadan",
+      "B": "Performing Hajj and giving Zakat regularly",
+      "C": "Feeding others and greeting with peace those you know and don't know",
+      "D": "Reading the Quran and making dhikr constantly"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "إِنَّ رَجُلًا سَأَلَ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: أَيُّ الإِسْلَامِ أَفْضَلُ؟ فَقَالَ: تُطْعِمُ الطَّعَامَ، وَتَقْرَأُ السَّلَامَ عَلَى مَنْ عَرَفْتَ وَمَنْ لَمْ تَعْرِفْ",
+    "english_translation": "A man asked the Messenger of Allah: Which Islam is best? He said: Feed others, and greet with peace those you know and those you do not know.",
+    "question": "In which authentic hadith collection is this narration recorded?",
+    "options": {
+      "A": "Sahih Muslim",
+      "B": "Sunan Abu Dawud",
+      "C": "Jami' at-Tirmidhi",
+      "D": "Sahih Bukhari"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "إِنَّ رَجُلًا سَأَلَ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: أَيُّ الإِسْلَامِ أَفْضَلُ؟ فَقَالَ: تُطْعِمُ الطَّعَامَ، وَتَقْرَأُ السَّلَامَ عَلَى مَنْ عَرَفْتَ وَمَنْ لَمْ تَعْرِفْ",
+    "english_translation": "A man asked the Messenger of Allah: Which Islam is best? He said: Feed others, and greet with peace those you know and those you do not know.",
+    "question": "What important Islamic teaching about social interaction does this hadith establish?",
+    "options": {
+      "A": "Muslims should spread peace and kindness universally, not just to those they know",
+      "B": "Muslims should only greet other Muslims with salam",
+      "C": "Feeding others is only required during Ramadan",
+      "D": "Greeting strangers is forbidden in Islam"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

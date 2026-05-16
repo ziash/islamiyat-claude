@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "السَّاعِي عَلَى الأَرْمَلَةِ وَالمِسْكِينِ كَالمُجَاهِدِ فِي سَبِيلِ اللَّهِ، أَوِ القَائِمِ اللَّيْلَ الصَّائِمِ النَّهَارَ",
+    "english_translation": "The one who strives to help the widow and the poor is like the one who fights in the way of Allah, or like one who prays all night and fasts all day.",
+    "question": "According to this Hadith, the one who strives to help the widow and the poor is compared to:",
+    "options": {
+      "A": "The one who performs Hajj every year",
+      "B": "The one who gives charity in secret",
+      "C": "The one who fights in the way of Allah",
+      "D": "The one who reads the Qur'an daily"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "السَّاعِي عَلَى الأَرْمَلَةِ وَالمِسْكِينِ كَالمُجَاهِدِ فِي سَبِيلِ اللَّهِ، أَوِ القَائِمِ اللَّيْلَ الصَّائِمِ النَّهَارَ",
+    "english_translation": "The one who strives to help the widow and the poor is like the one who fights in the way of Allah, or like one who prays all night and fasts all day.",
+    "question": "In which authentic collection of Hadith is this narration found?",
+    "options": {
+      "A": "Sunan Abu Dawud",
+      "B": "Sahih Bukhari",
+      "C": "Muwatta Malik",
+      "D": "Musnad Ahmad"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "السَّاعِي عَلَى الأَرْمَلَةِ وَالمِسْكِينِ كَالمُجَاهِدِ فِي سَبِيلِ اللَّهِ، أَوِ القَائِمِ اللَّيْلَ الصَّائِمِ النَّهَارَ",
+    "english_translation": "The one who strives to help the widow and the poor is like the one who fights in the way of Allah, or like one who prays all night and fasts all day.",
+    "question": "What is the main Islamic teaching established by this Hadith?",
+    "options": {
+      "A": "Helping the needy has great reward equal to major acts of worship",
+      "B": "Fasting during the day is more important than night prayers",
+      "C": "Widows must be given priority over all other poor people",
+      "D": "Jihad is the only way to earn Paradise"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

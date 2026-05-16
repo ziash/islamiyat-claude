@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Kafirun",
+    "surah_number": 109,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah establishes a complete separation between the worship practices of Muslims and disbelievers?",
+    "options": {
+      "A": "Al-Kafirun",
+      "B": "Al-Ikhlas",
+      "C": "Al-Ma'un",
+      "D": "Al-Takathur"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Kafirun",
+    "surah_number": 109,
+    "question_angle": "vocabulary",
+    "arabic_text": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+    "english_translation": "I do not worship what you worship",
+    "question": "What does the Arabic word أَعْبُدُ mean in Surah Al-Kafirun?",
+    "options": {
+      "A": "I believe",
+      "B": "I worship",
+      "C": "I follow",
+      "D": "I submit"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Kafirun",
+    "surah_number": 109,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Kafirun is primarily addressed to whom?",
+    "options": {
+      "A": "The hypocrites of Madinah",
+      "B": "The believers who show patience",
+      "C": "The disbelievers of Makkah",
+      "D": "The People of the Book"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Kafirun",
+    "surah_number": 109,
+    "question_angle": "ayah_detail",
+    "arabic_text": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+    "english_translation": "You have your way, and I have my Way",
+    "question": "How many times is the word 'worship' (in its various forms) repeated in Surah Al-Kafirun?",
+    "options": {
+      "A": "Three times",
+      "B": "Four times",
+      "C": "Five times",
+      "D": "Six times"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Kafirun",
+    "surah_number": 109,
+    "question_angle": "concept",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "What fundamental principle of faith does Surah Al-Kafirun establish?",
+    "options": {
+      "A": "The unity and oneness of Allah",
+      "B": "The rejection of religious compromise in matters of worship",
+      "C": "The importance of charity and social justice",
+      "D": "The certainty of the Day of Judgment"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  }
+]

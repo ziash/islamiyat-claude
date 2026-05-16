@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Fil",
+    "surah_number": 105,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah recounts Allah's protection of the Ka'bah from an invading army?",
+    "options": {
+      "A": "Al-Fil",
+      "B": "Al-Quraysh",
+      "C": "Al-Masad",
+      "D": "Al-Nasr"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Fil",
+    "surah_number": 105,
+    "question_angle": "vocabulary",
+    "arabic_text": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+    "english_translation": "that pelted them with stones of baked clay",
+    "question": "What does سِجِّيلٍ mean in Surah Al-Fil?",
+    "options": {
+      "A": "Hard iron",
+      "B": "Baked clay",
+      "C": "Burning fire",
+      "D": "Sharp flint"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Fil",
+    "surah_number": 105,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Fil describes the fate of which group?",
+    "options": {
+      "A": "The people of Thamud",
+      "B": "The people of 'Ad",
+      "C": "The Army of the Elephant",
+      "D": "The companions of the trench"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Fil",
+    "surah_number": 105,
+    "question_angle": "ayah_detail",
+    "arabic_text": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+    "english_translation": "For He sent against them flocks of birds",
+    "question": "What did Allah send against the Army of the Elephant according to Surah Al-Fil?",
+    "options": {
+      "A": "A violent storm",
+      "B": "A disease and plague",
+      "C": "An earthquake",
+      "D": "Flocks of birds"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Fil",
+    "surah_number": 105,
+    "question_angle": "concept",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "What key concept does Surah Al-Fil demonstrate about Allah's power?",
+    "options": {
+      "A": "Allah protects His sacred house and destroys those who try to harm it",
+      "B": "Allah provides sustenance to all living creatures",
+      "C": "Allah forgives all sins when people repent sincerely",
+      "D": "Allah tests believers through hardship and ease"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

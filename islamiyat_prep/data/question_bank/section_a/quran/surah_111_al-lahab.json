@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Lahab",
+    "surah_number": 111,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah contains a specific warning against an individual enemy of the Prophet (pbuh) and his wife?",
+    "options": {
+      "A": "Surah Al-Lahab",
+      "B": "Surah Al-Kafirun",
+      "C": "Surah Al-Masad",
+      "D": "Surah Al-Humazah"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Lahab",
+    "surah_number": 111,
+    "question_angle": "vocabulary",
+    "arabic_text": "حَمَّالَةَ ٱلْحَطَبِ",
+    "english_translation": "who carries wood",
+    "question": "What does the phrase حَمَّالَةَ ٱلْحَطَبِ mean in Surah Al-Lahab?",
+    "options": {
+      "A": "who spreads slander",
+      "B": "who carries wood",
+      "C": "who hoards wealth",
+      "D": "who kindles fire"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Lahab",
+    "surah_number": 111,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Lahab primarily addresses:",
+    "options": {
+      "A": "the destruction of those who reject faith",
+      "B": "the sincere worshippers of Allah",
+      "C": "Abu Lahab and his wife who opposed the Prophet",
+      "D": "the hypocrites of Madinah"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Lahab",
+    "surah_number": 111,
+    "question_angle": "ayah_detail",
+    "arabic_text": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍ",
+    "english_translation": "in her neck is a twisted rope of palm fibre",
+    "question": "According to Surah Al-Lahab, what will be around the neck of Abu Lahab's wife in the Hereafter?",
+    "options": {
+      "A": "chains of iron",
+      "B": "a yoke of fire",
+      "C": "a collar of brass",
+      "D": "a twisted rope of palm fibre"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Lahab",
+    "surah_number": 111,
+    "question_angle": "concept",
+    "arabic_text": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+    "english_translation": "His wealth and his children will not benefit him",
+    "question": "What key lesson does Surah Al-Lahab teach about worldly possessions?",
+    "options": {
+      "A": "Wealth and possessions cannot save a person from Allah's punishment",
+      "B": "Wealth should be distributed among the poor",
+      "C": "Material success is a sign of Allah's favor",
+      "D": "Children are more valuable than wealth"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

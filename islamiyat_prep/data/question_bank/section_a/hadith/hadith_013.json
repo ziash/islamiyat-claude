@@ -1,0 +1,53 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "أَيُّ النَّاسِ أَفْضَلُ؟ فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: مُؤْمِنٌ يُجَاهِدُ فِي سَبِيلِ اللَّهِ بِنَفْسِهِ وَمَالِهِ",
+    "english_translation": "Which of the people is best? The Messenger of Allah said: A believer who strives in the way of Allah with his person and his wealth.",
+    "question": "What does the phrase 'يُجَاهِدُ فِي سَبِيلِ اللَّهِ بِنَفْسِهِ وَمَالِهِ' mean?",
+    "options": {
+      "A": "One who prays regularly at the mosque with devotion",
+      "B": "One who fasts during Ramadan with sincerity",
+      "C": "One who strives in the way of Allah with his person and his wealth",
+      "D": "One who performs Hajj every year with family"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "أَيُّ النَّاسِ أَفْضَلُ؟ فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: مُؤْمِنٌ يُجَاهِدُ فِي سَبِيلِ اللَّهِ بِنَفْسِهِ وَمَالِهِ",
+    "english_translation": "Which of the people is best? The Messenger of Allah said: A believer who strives in the way of Allah with his person and his wealth.",
+    "question": "In which authentic collection of Hadith is this narration found?",
+    "options": {
+      "A": "Sahih Muslim",
+      "B": "Sunan Abu Dawud",
+      "C": "Jami' at-Tirmidhi",
+      "D": "Sahih Bukhari"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Hadith",
+    "hadith_reference": "Sahih Bukhari",
+    "arabic_text": "أَيُّ النَّاسِ أَفْضَلُ؟ فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: مُؤْمِنٌ يُجَاهِدُ فِي سَبِيلِ اللَّهِ بِنَفْسِهِ وَمَالِهِ",
+    "english_translation": "Which of the people is best? The Messenger of Allah said: A believer who strives in the way of Allah with his person and his wealth.",
+    "question": "What is the main teaching of this Hadith?",
+    "options": {
+      "A": "The best believer is one who strives in Allah's cause with both physical effort and wealth",
+      "B": "The best believer is one who memorizes the entire Qur'an",
+      "C": "The best believer is one who donates to charity anonymously",
+      "D": "The best believer is one who performs voluntary night prayers"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

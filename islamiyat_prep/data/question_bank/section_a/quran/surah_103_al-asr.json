@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Asr",
+    "surah_number": 103,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah warns that mankind is in a state of loss except for those who believe and do good deeds?",
+    "options": {
+      "A": "Surah Al-Asr",
+      "B": "Surah Al-Humaza",
+      "C": "Surah Al-Qari'ah",
+      "D": "Surah Al-Zalzalah"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Asr",
+    "surah_number": 103,
+    "question_angle": "vocabulary",
+    "arabic_text": "وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+    "english_translation": "and recommend one another to patience",
+    "question": "What does the word ٱلصَّبْرِ mean in Surah Al-Asr?",
+    "options": {
+      "A": "Truth",
+      "B": "Patience",
+      "C": "Righteousness",
+      "D": "Faith"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Asr",
+    "surah_number": 103,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Asr outlines the criteria for success and salvation by emphasizing which combination of qualities?",
+    "options": {
+      "A": "Charity and fasting",
+      "B": "Pilgrimage and prayer",
+      "C": "Faith, good deeds, enjoining truth, and enjoining patience",
+      "D": "Knowledge and worship"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Asr",
+    "surah_number": 103,
+    "question_angle": "ayah_detail",
+    "arabic_text": "وَٱلْعَصْرِ",
+    "english_translation": "By Al-Asr, the time",
+    "question": "What does Allah swear by at the beginning of Surah Al-Asr?",
+    "options": {
+      "A": "The dawn",
+      "B": "The night",
+      "C": "The sun",
+      "D": "The time (Al-Asr)"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Asr",
+    "surah_number": 103,
+    "question_angle": "concept",
+    "arabic_text": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+    "english_translation": "Verily, man is in loss",
+    "question": "What fundamental concept about the human condition does Surah Al-Asr establish?",
+    "options": {
+      "A": "That humans are inherently in a state of loss unless they fulfill certain spiritual and moral conditions",
+      "B": "That humans will be tested with hardship and suffering",
+      "C": "That humans must seek worldly success",
+      "D": "That humans are naturally inclined toward good"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Qariah",
+    "surah_number": 101,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Which surah vividly describes the Day of Judgement as a striking calamity when people will be scattered like moths?",
+    "options": {
+      "A": "Al-Qariah",
+      "B": "Al-Zilzal",
+      "C": "Al-Qiyamah",
+      "D": "Al-Infitar"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Qariah",
+    "surah_number": 101,
+    "question_angle": "vocabulary",
+    "arabic_text": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+    "english_translation": "And the mountains will be like carded wool",
+    "question": "What does the phrase ٱلْعِهْنِ ٱلْمَنفُوشِ mean in Surah Al-Qariah?",
+    "options": {
+      "A": "Scattered dust",
+      "B": "Carded wool",
+      "C": "Flying birds",
+      "D": "Crumbling sand"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Qariah",
+    "surah_number": 101,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Qariah primarily describes:",
+    "options": {
+      "A": "The characteristics of true believers",
+      "B": "The revelation of the Quran",
+      "C": "The Day of Judgement and its consequences",
+      "D": "The stories of previous prophets"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Qariah",
+    "surah_number": 101,
+    "question_angle": "ayah_detail",
+    "arabic_text": "فَأُمُّهُۥ هَاوِيَةٌ",
+    "english_translation": "He will have his home in Hawiyah—the pit, i.e. Hell",
+    "question": "According to Surah Al-Qariah, what will be the abode of those whose scales of good deeds are light?",
+    "options": {
+      "A": "Jahannam",
+      "B": "Sijjin",
+      "C": "Saqar",
+      "D": "Hawiyah"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Qariah",
+    "surah_number": 101,
+    "question_angle": "concept",
+    "arabic_text": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+    "english_translation": "Then as for him whose balance of good deeds will be heavy",
+    "question": "What key Islamic concept does Surah Al-Qariah establish regarding accountability on the Day of Judgement?",
+    "options": {
+      "A": "That deeds will be weighed on scales to determine one's fate",
+      "B": "That intercession alone will save believers",
+      "C": "That faith without deeds is sufficient for Paradise",
+      "D": "That only prophets will enter Paradise directly"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]

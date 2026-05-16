@@ -1,0 +1,97 @@
+[
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Takathur",
+    "surah_number": 102,
+    "question_angle": "theme",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "In which surah does Allah warn about rivalry in worldly accumulation diverting people from remembrance?",
+    "options": {
+      "A": "Al-Takathur",
+      "B": "Al-Humazah",
+      "C": "Al-Ma'un",
+      "D": "Al-Qadr"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Takathur",
+    "surah_number": 102,
+    "question_angle": "vocabulary",
+    "arabic_text": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+    "english_translation": "The mutual rivalry for piling up worldly things diverts you",
+    "question": "What does the word ٱلتَّكَاثُرُ mean in Surah Al-Takathur?",
+    "options": {
+      "A": "The hoarding",
+      "B": "The mutual rivalry for piling up",
+      "C": "The greed",
+      "D": "The accumulation"
+    },
+    "correct_answer": "B",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Takathur",
+    "surah_number": 102,
+    "question_angle": "content",
+    "arabic_text": "",
+    "english_translation": "",
+    "question": "Surah Al-Takathur primarily addresses those who are:",
+    "options": {
+      "A": "Neglecting prayer",
+      "B": "Slandering others",
+      "C": "Distracted by worldly competition until death",
+      "D": "Denying the Day of Judgment"
+    },
+    "correct_answer": "C",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Takathur",
+    "surah_number": 102,
+    "question_angle": "ayah_detail",
+    "arabic_text": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+    "english_translation": "Verily you shall see the blazing Fire of Hell",
+    "question": "What will people certainly see according to verse 6 of Surah Al-Takathur?",
+    "options": {
+      "A": "The Gardens of Paradise",
+      "B": "The Book of Deeds",
+      "C": "The Bridge over Hell",
+      "D": "The blazing Fire of Hell"
+    },
+    "correct_answer": "D",
+    "marks": 1
+  },
+  {
+    "section": "A",
+    "type": "MCQ",
+    "source_type": "Quranic",
+    "surah_name": "Al-Takathur",
+    "surah_number": 102,
+    "question_angle": "concept",
+    "arabic_text": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+    "english_translation": "Then on that Day you shall be asked about the delights you indulged in, in this world",
+    "question": "What key concept does Surah Al-Takathur establish about accountability on the Day of Judgment?",
+    "options": {
+      "A": "People will be questioned about their worldly delights and blessings",
+      "B": "People will be judged only by their prayers",
+      "C": "People will be sorted into seventy levels",
+      "D": "People will receive their books in different hands"
+    },
+    "correct_answer": "A",
+    "marks": 1
+  }
+]
